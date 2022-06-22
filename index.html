@@ -149,19 +149,80 @@
         <div class="flex flex-col flex-wrap items-start lg:justify-center">
           <div class="flex flex-col flex-wrap items-start gap-2">
             <h2 class="text-4xl font-bold">Relax, you're home!</h2>
-            <p class="max-w-md">All our supported ahrdware includes traditional inputs so you can integrate our products into your house in a way that's best for everyone.</p>
+            <p class="max-w-md">All our supported ahrdware includes traditional inputs so you can integrate our products
+              into your house in a way that's best for everyone.</p>
           </div>
           <a href="#"
             class="flex gap-2 px-6 py-2 my-12 transition-shadow rounded-md shadow-xl dark:text-neutral-900 bg-amber-400 hover:shadow-none focus:outline-none focus-visible:ring-4 ring-neutral-900 ring-offset-4 ring-offset-white dark:ring-offset-neutral-800 dark:ring-amber-400">
-            Download the App
+            Sign Up
           </a>
         </div>
         <img src="./assets/table.png" alt="Table">
       </div>
-      <div class="absolute rounded-full -bottom-6 -z-10 -right-32 aspect-square md:border-8 border-amber-400 md:w-64 lg:w-96 xl:max-w-lg"></div>
+      <div
+        class="absolute rounded-full -bottom-6 -z-10 -right-32 aspect-square md:border-8 border-amber-400 md:w-64 lg:w-96 xl:max-w-lg">
+      </div>
       <div class="w-screen h-24 mt-12 -mx-8 bg-teal-900 xl:h-48 xl:absolute -bottom-8 -z-10 xl:mt-0"></div>
     </section>
   </main>
+
+  <section aria-labelledBy="contact" class="container px-8 overflow-hidden">
+    <div class="flex flex-wrap justify-center gap-12 md:gap-6 lg:gap-20">
+      <div class="relative md:flex-1 md:max-ws-sm">
+        <img src="./assets/lamp.png" alt="Lamp" class="mx-auto">
+        <a href="#"
+          class="flex gap-2 px-6 py-2 mx-auto mt-12 transition-shadow rounded-md shadow-xl w-max dark:text-neutral-900 bg-amber-400 hover:shadow-none focus:outline-none focus-visible:ring-4 ring-neutral-900 ring-offset-4 ring-offset-white dark:ring-offset-neutral-800 dark:ring-amber-400 md:mb-12">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+            stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+          </svg>
+          <span>Download the App</span>
+        </a>
+        <img src="./assets/app.svg" alt="App" width="240"
+          class="absolute hidden mb-24 -translate-x-1/2 max-w-16 drop-shadow-xl left-1/2 xl:max-w-xs md:block">
+        
+          <div
+        class="absolute -translate-x-1/2 rounded-full -bottom-18 -z-10 left-1/2 aspect-square md:border-8 border-amber-400 md:w-72 lg:w-96">
+      </div>
+      </div>
+      <form
+        class="relative grid w-full gap-8 p-6 my-4 bg-white border-8 rounded-lg border-neutral-800 md:flex-1 md:max-w-lg md:my-12 lg:my-16 dark:bg-neutral-800">
+        <h2 id="contact" class="text-3xl font-bold">Let's Connect</h2>
+        <div class="relative">
+          <input type="text" id="name"
+            class="w-full placeholder-transparent border-4 rounded-md form-input border-amber-400 focus:ring-4 dark:focus:ring-offset-2 focus:border-amber-400 focus:outline-none dark:text-neutral-900 dark:bg-amber-400 focus:ring-amber-400 peer"
+            placeholder="Your Name">
+          <label for="name"
+            class="absolute text-sm font-bold uppercase transition-all -translate-y-1/2 peer-placeholder-shown:left-4 peer-placeholder-shown:top-1/2 text-neutral-500 -top-4 left-2 peer-placeholder-shown:text-neutral-900 peer-focus:-top-4 peer-focus:left-2 peer-focus:text-neutral-600 dark:peer-focus:text-neutral-300">Your
+            Name</label>
+        </div>
+
+        <div class="relative">
+          <input type="email" id="email"
+            class="w-full placeholder-transparent border-4 rounded-md form-input border-amber-400 focus:ring-4 dark:focus:ring-offset-2 focus:border-amber-400 focus:outline-none dark:text-neutral-900 dark:bg-amber-400 focus:ring-amber-400 peer"
+            placeholder="Your Email">
+          <label for="email"
+            class="absolute text-sm font-bold uppercase transition-all -translate-y-1/2 peer-placeholder-shown:left-4 peer-placeholder-shown:top-1/2 text-neutral-500 -top-4 left-2 peer-placeholder-shown:text-neutral-900 peer-focus:-top-4 peer-focus:left-2 peer-focus:text-neutral-600 dark:peer-focus:text-neutral-300">Your
+            Email</label>
+        </div>
+
+        <div class="relative">
+          <textarea name="content" id="content" cols="20" rows="5"
+            class="w-full placeholder-transparent border-4 rounded-md resize-none form-textarea border-amber-400 focus:ring-4 dark:focus:ring-offset-2 focus:border-amber-400 focus:outline-none dark:text-neutral-900 dark:bg-amber-400 focus:ring-amber-400 peer"
+            placeholder="How can we help?"></textarea>
+          <label for="content"
+            class="absolute text-sm font-bold uppercase transition-all -translate-y-1/2 peer-placeholder-shown:left-4 peer-placeholder-shown:top-6 text-neutral-500 -top-3 left-2 peer-placeholder-shown:text-neutral-900 peer-focus:-top-4 peer-focus:left-2 peer-focus:text-neutral-600 dark:peer-focus:text-neutral-300">How
+            can we help?</label>
+        </div>
+
+        <a href="#"
+            class="flex gap-2 px-6 py-2 my-12 text-white transition-shadow rounded-md shadow-xl w-max dark:text-neutral-900 bg-neutral-900 hover:shadow-none focus:outline-none focus-visible:ring-4 ring-neutral-900 ring-offset-4 ring-offset-white dark:ring-offset-amber-400 dark:ring-amber-400">
+            Sign Up
+          </a>
+      </form>
+    </div>
+  </section>
 
   <script type="module" src="/main.js"></script>
 </body>

@@ -8,7 +8,11 @@ module.exports = {
     container: {
       center: true
     },
-    extend: {},
+    extend: {
+      maxWidth: {
+        '16': '16rem'
+      }
+    },
   },
   plugins: [
     require('@tailwindcss/forms'),
